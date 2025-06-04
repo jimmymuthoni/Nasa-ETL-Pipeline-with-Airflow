@@ -32,27 +32,6 @@ This project implements an end-to-end ETL (Extract, Transform, Load) pipeline us
 - Table creation is handled automatically if not present.
 
 ---
-
-## 📁 Project Structure
-
-.
-├── dags/
-
-│ └── etlpipeline.py/
-
-├── docker-compose.yml/
-
-├── Dockerfile/
-
-├── requirements.txt/
-
-├── screenshots/ 
-
-│ ├── astro_dag.png/
-
-└── README.md 
-
-
 ---
 
 ## ☁️ Deployed on Astro Cloud
@@ -68,7 +47,7 @@ The Airflow pipeline is also deployed to [Astro Cloud](https://www.astronomer.io
 ## 📷 Screenshots
 
 ### ✅ Airflow DAG in Astro UI
-![Airflow DAG on Astro](./screenshots/astro_dag.png)
+![Airflow DAG](https://github.com/jimmymuthoni/Nasa-ETL-Pipeline-with-Airflow/blob/64b193940856b48dc7681e0e5ab2b06d399aeed3/Airflow1.png)
 
 ---
 
@@ -76,5 +55,5 @@ The Airflow pipeline is also deployed to [Astro Cloud](https://www.astronomer.io
 
 ### 1. Clone and Set Up
 ```bash
-git clone https://github.com/yourusername/airflow-etl-nasa.git
+git clone https://github.com/jimmymuthoni/airflow-etl-nasa.git
 cd airflow-etl-nasa
