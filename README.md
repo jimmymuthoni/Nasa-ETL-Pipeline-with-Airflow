@@ -51,9 +51,3 @@ The Airflow pipeline is also deployed to [Astro Cloud](https://www.astronomer.io
 
 ---
 
-## 🏁 Getting Started
-
-### 1. Clone and Set Up
-```bash
-git clone https://github.com/jimmymuthoni/airflow-etl-nasa.git
-cd airflow-etl-nasa
