@@ -1,10 +1,10 @@
-# 🚀 ETL Pipeline with Airflow, Postgres, and NASA API
+## ETL Pipeline with Airflow, Postgres, and NASA API
 
 This project implements an end-to-end ETL (Extract, Transform, Load) pipeline using **Apache Airflow**. It pulls daily data from NASA's Astronomy Picture of the Day (APOD) API, transforms it, and loads it into a **PostgreSQL** database — all orchestrated and scheduled with Airflow. The pipeline is fully containerized with Docker and has been deployed to **Astro Cloud**.
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Tool/Technology     | Purpose                              |
 |---------------------|--------------------------------------|
@@ -17,7 +17,7 @@ This project implements an end-to-end ETL (Extract, Transform, Load) pipeline us
 
 ---
 
-## 🧠 Workflow Overview
+## Workflow Overview
 
 ### 1. **Extract**
 - `HttpOperator` fetches data from NASA APOD API.
@@ -34,18 +34,18 @@ This project implements an end-to-end ETL (Extract, Transform, Load) pipeline us
 ---
 ---
 
-## ☁️ Deployed on Astro Cloud
+## Deployed on Astro Cloud
 
 The Airflow pipeline is also deployed to [Astro Cloud](https://www.astronomer.io/), providing scalable, production-ready orchestration.
 
-✅ DAG tested with Astro CLI  
-✅ Image pushed and deployed to Astro  
-✅ Logs, runs, and scheduling managed via Astro UI  
+DAG tested with Astro CLI  
+Image pushed and deployed to Astro  
+Logs, runs, and scheduling managed via Astro UI  
 
 ---
 
 
-### ✅ Airflow DAG in Astro UI
+### Airflow DAG in Astro UI
 ![Airflow DAG](https://github.com/jimmymuthoni/Nasa-ETL-Pipeline-with-Airflow/blob/64b193940856b48dc7681e0e5ab2b06d399aeed3/Airflow1.png)
 
 ---
